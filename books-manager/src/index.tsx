@@ -4,7 +4,7 @@ import { Main } from './main';
 import './index.css'
 
 
-const container = document.querySelector('#root');
+const container = document.querySelector('#root') as HTMLElement;
 const root = createRoot(container);
 
 root.render(<Main />);

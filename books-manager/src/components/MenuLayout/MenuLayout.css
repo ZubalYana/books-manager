@@ -1,0 +1,9 @@
+.MenuLayout {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    width: 70%;
+}
