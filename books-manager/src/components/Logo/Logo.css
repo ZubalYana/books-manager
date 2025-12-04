@@ -1,0 +1,23 @@
+.Logo {
+    display: flex;
+    gap: 7px;
+    height: 40px;
+    align-items: center;
+    width: auto;
+    height: fit-content;
+}
+
+.Logo .icon {
+    width: 32px;
+    height: 30px;
+}
+
+.Logo .icon svg {
+    transform: scale(1.2);
+}
+
+.Logo h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 20px;
+}
